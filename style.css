@@ -21,6 +21,8 @@
 
   .title-tag  {
     position:absolute;
+    right:25px;
+    left:20px;
     bottom: -6.0rem;
   }
 
