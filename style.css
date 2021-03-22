@@ -1,0 +1,68 @@
+.bg-main-image{
+    background-color:grey;
+    background-size: cover;
+    background-position: center;
+    min-height: 35vh;
+    position: relative;
+  }
+  
+
+  
+  @media only screen and (min-width: 768px) {
+    .bg-main-image {
+      background-image: url(/Mowing.png);
+    }
+    /* .title-tag  {
+      position:absolute;
+      bottom: -1.5rem;
+    } */
+  }
+
+
+  .title-tag  {
+    position:absolute;
+    bottom: -6.0rem;
+  }
+
+
+
+
+
+
+.side-cards{
+  display: flex;
+  align-items: flex-end;
+}
+
+
+
+.middle-card{
+  display: flex;
+  align-items: flex-start;
+
+
+}
+
+
+.icon-card{
+  /* display: flex; */
+  /* justify-content: flex-start;
+  align-items: flex-start; */
+}
+
+.threecards{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+  .customfont{
+    font-family: 'Pacifico', cursive;
+    font-size:9;
+  }
+
+  .bottombutton{
+    display: flex;
+    justify-content: flex-end;
+  }
+
