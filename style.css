@@ -10,39 +10,51 @@
   
   @media only screen and (min-width: 768px) {
     .bg-main-image {
-      background-image: url(/Mowing.png);
+      background-image: url(./Mowing.png);
     }
-    /* .title-tag  {
-      position:absolute;
-      bottom: -1.5rem;
+ 
+      .title-tag  {
+        position: sticky;
+        display: flex;
+        align-items:flex-start;    
+        bottom: -1.45rem;
+      }
+      
+
+
+    /* .middle-card{
+      display: flex;
+      align-items: center;
     } */
   }
 
 
+ 
+/* 
   .title-tag  {
     position:absolute;
     right:25px;
     left:20px;
     bottom: -6.0rem;
-  }
+  } */
 
 
 
-
+  .vh-100 {
+    height: 60vh!important;
+}
 
 
 .side-cards{
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 
 
 
 .middle-card{
   display: flex;
-  align-items: flex-start;
-
-
+  align-items: center;
 }
 
 
